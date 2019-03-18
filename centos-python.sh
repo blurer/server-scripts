@@ -2,7 +2,9 @@
 
 sudo yum update -y 
 
-sudo yum upgrade -y 
+sudo yum upgrade -y
+
+sudo yum install epel-release -y
 
 sudo yum groupinstall -y  "development tools"
 
@@ -14,6 +16,9 @@ sudo yum install -y \
   htop \
   vim \
   python-pip \
+  nmap \
+  ansible \
+  
   python-setuptools
 
 cd ~
