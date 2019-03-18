@@ -28,6 +28,9 @@ cd Python-3.7.2/
 ./configure --enable-optimizations
 sudo make altinstall
 
+pip install shodan --user
+pip install sshmenu --user
+pip install speedtest-cli --user
 
 (cd /tmp && git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt && cd sexy-bash-prompt && make install) && source ~/.bashrc
 
